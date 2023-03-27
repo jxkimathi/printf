@@ -22,7 +22,7 @@ char *itoa(long int num, int base)
 		sign = '-';
 	}
 	ptr = &buffer[49];
-	*pr = '\0';
+	*ptr = '\0';
 
 	do{
 		*--ptr = array[n % base];
